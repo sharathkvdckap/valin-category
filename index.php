@@ -10,7 +10,7 @@ curl_setopt_array($curl, [
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "{\n  \"id\": 0,\n  \"parent_id\": 0,\n  \"name\": \"Process Heat\",\n  \"description\": \"<p>We offer a wide variety of products perfect for relaxing</p>\",\n  \"views\": 1050,\n  \"sort_order\": 3,\n  \"page_title\": \"Bath\",\n  \"search_keywords\": \"string\",\n  \"meta_keywords\": [\n    \"string\"\n  ],\n  \"meta_description\": \"string\",\n  \"layout_file\": \"category.html\",\n  \"is_visible\": true,\n  \"default_product_sort\": \"use_store_settings\",\n  \"image_url\": \"https://cdn8.bigcommerce.com/s-123456/product_images/d/fakeimage.png\",\n  \"custom_url\": {\n    \"url\": \"/process-heat\",\n    \"is_customized\": true\n  }\n}",
+  CURLOPT_POSTFIELDS => "{ \n  \"parent_id\": 0,\n  \"name\": \"Process Heat\",\n  \"description\": \"<p>We offer a wide variety of products perfect for relaxing</p>\",\n  \"views\": 1050,\n  \"sort_order\": 3,\n  \"page_title\": \"Bath\",\n  \"search_keywords\": \"string\",\n  \"meta_keywords\": [\n    \"string\"\n  ],\n  \"meta_description\": \"string\",\n  \"layout_file\": \"category.html\",\n  \"is_visible\": true,\n  \"default_product_sort\": \"use_store_settings\",\n  \"image_url\": \"https://cdn8.bigcommerce.com/s-123456/product_images/d/fakeimage.png\",\n  \"custom_url\": {\n    \"url\": \"/process-heat\",\n    \"is_customized\": true\n  }\n}",
   CURLOPT_HTTPHEADER => [
     "Accept: application/json",
     "Content-Type: application/json",
