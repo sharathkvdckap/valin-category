@@ -10,7 +10,7 @@ curl_setopt_array($curl, [
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "{ \n  \"parent_id\": 507,\n  \"name\": \"Displacement and Measurement\",\n  \"description\": \"\",\n  \"views\": 1050,\n  \"sort_order\": 0,\n  \"page_title\": \"Displacement and Measurement\",\n  \"search_keywords\": \"\",\n  \"meta_keywords\": [\n    \"\"\n  ],\n  \"meta_description\": \"\",\n  \"layout_file\": \"default.html\",\n  \"is_visible\": true,\n  \"default_product_sort\": \"use_store_settings\",\n  \"image_url\": \"https://cdn11.bigcommerce.com/s-ca10qrhzok/product_images/uploaded_images/productdefault.gif\",\n  \"custom_url\": {\n    \"url\": \"/products/deactivated-categories/manufacturers/omron/sensors/displacement-and-measurement\",\n    \"is_customized\": true\n  }\n}",
+  CURLOPT_POSTFIELDS => "{ \n  \"parent_id\": 507,\n  \"name\": \"Photoelectric\",\n  \"description\": \"\",\n  \"views\": 1050,\n  \"sort_order\": 0,\n  \"page_title\": \"Photoelectric\",\n  \"search_keywords\": \"\",\n  \"meta_keywords\": [\n    \"\"\n  ],\n  \"meta_description\": \"\",\n  \"layout_file\": \"default.html\",\n  \"is_visible\": true,\n  \"default_product_sort\": \"use_store_settings\",\n  \"image_url\": \"https://cdn11.bigcommerce.com/s-ca10qrhzok/product_images/uploaded_images/productdefault.gif\",\n  \"custom_url\": {\n    \"url\": \"/products/deactivated-categories/manufacturers/omron/sensors/photoelectric\",\n    \"is_customized\": true\n  }\n}",
   CURLOPT_HTTPHEADER => [
     "Accept: application/json",
     "Content-Type: application/json",
