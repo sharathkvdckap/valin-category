@@ -10,7 +10,7 @@ curl_setopt_array($curl, [
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "{ \n  \"parent_id\": 593,\n  \"name\": \"DIN Rails\",\n  \"description\": \"\",\n  \"views\": 1050,\n  \"sort_order\": 0,\n  \"page_title\": \"DIN Rails\",\n  \"search_keywords\": \"\",\n  \"meta_keywords\": [\n    \"\"\n  ],\n  \"meta_description\": \"\",\n  \"layout_file\": \"default.html\",\n  \"is_visible\": true,\n  \"default_product_sort\": \"use_store_settings\",\n  \"image_url\": \"https://cdn11.bigcommerce.com/s-ca10qrhzok/product_images/uploaded_images/productdefault.gif\",\n  \"custom_url\": {\n    \"url\": \"/products/deactivated-categories/manufacturers/abb-low-voltage/connection-devices/sna-series/din-rails\",\n    \"is_customized\": true\n  }\n}",
+  CURLOPT_POSTFIELDS => "{ \n  \"parent_id\": 593,\n  \"name\": \"Stud Terminal Blocks\",\n  \"description\": \"\",\n  \"views\": 1050,\n  \"sort_order\": 0,\n  \"page_title\": \"Stud Terminal Blocks\",\n  \"search_keywords\": \"\",\n  \"meta_keywords\": [\n    \"\"\n  ],\n  \"meta_description\": \"\",\n  \"layout_file\": \"default.html\",\n  \"is_visible\": true,\n  \"default_product_sort\": \"use_store_settings\",\n  \"image_url\": \"https://cdn11.bigcommerce.com/s-ca10qrhzok/product_images/uploaded_images/productdefault.gif\",\n  \"custom_url\": {\n    \"url\": \"/products/deactivated-categories/manufacturers/abb-low-voltage/connection-devices/sna-series/stud-terminal-blocks\",\n    \"is_customized\": true\n  }\n}",
   CURLOPT_HTTPHEADER => [
     "Accept: application/json",
     "Content-Type: application/json",
